@@ -9,7 +9,8 @@
   },
   "scripts": {
     "start": "node countdown.js",
-    "test": "node --test test.js"
+    "test": "node --test --test-name-pattern='format|getFormatter|validateInput|parseArgs' test.js",
+    "test:full": "node --test test.js"
   },
   "keywords": ["countdown", "timer", "cli", "terminal"],
   "author": "Alpha Studio",

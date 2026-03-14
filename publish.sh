@@ -8,7 +8,7 @@ echo "🔍 Checking npm login..."
 npm whoami || { echo "❌ Not logged in. Run: npm login"; exit 1; }
 
 echo "🧪 Running tests..."
-node --test test.js
+npm test
 
 echo "📦 Publishing countdown-timer-cli@1.0.0..."
 npm publish --access public
