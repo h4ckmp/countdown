@@ -1,0 +1,17 @@
+{
+  "name": "@alpha-studio/countdown",
+  "version": "1.0.0",
+  "description": "A beautiful CLI countdown timer by Alpha Studio",
+  "type": "module",
+  "main": "countdown.js",
+  "bin": {
+    "countdown": "./countdown.js"
+  },
+  "scripts": {
+    "start": "node countdown.js",
+    "test": "node --test test.js"
+  },
+  "keywords": ["countdown", "timer", "cli", "terminal"],
+  "author": "Alpha Studio",
+  "license": "MIT"
+}
