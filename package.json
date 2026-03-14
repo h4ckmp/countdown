@@ -1,5 +1,5 @@
 {
-  "name": "@alpha-studio/countdown",
+  "name": "countdown-timer-cli",
   "version": "1.0.0",
   "description": "A beautiful CLI countdown timer by Alpha Studio",
   "type": "module",
@@ -13,5 +13,16 @@
   },
   "keywords": ["countdown", "timer", "cli", "terminal"],
   "author": "Alpha Studio",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/h4ckmp/countdown.git"
+  },
+  "files": [
+    "countdown.js",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
 }

@@ -5,7 +5,13 @@ A beautiful CLI countdown timer. Zero dependencies, pure Node.js.
 ## Install
 
 ```bash
-npm install -g @alpha-studio/countdown
+npm install -g countdown-timer-cli
+```
+
+Or install from source:
+
+```bash
+git clone https://github.com/h4ckmp/countdown.git && cd countdown && npm link
 ```
 
 ## Usage
